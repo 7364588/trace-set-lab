@@ -1,0 +1,14 @@
+name: Feature request
+description: Describe a concrete workflow
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What task is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input and expected result
+      description: Synthetic examples help turn a request into a testable change.

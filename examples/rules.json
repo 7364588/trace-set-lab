@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "require_status": "ok",
+  "required_tools": [
+    "retrieve"
+  ],
+  "max_tool_calls": {
+    "retrieve": 2
+  },
+  "budgets": {
+    "production": {
+      "latency_ms": 2500,
+      "cost_usd": 0.03
+    },
+    "evaluation": {}
+  }
+}

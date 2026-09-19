@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "traces": [{
+    "trace_id": "abcdef0123456789abcdef0123456789",
+    "case_id": "catalog-question",
+    "repeat_id": "1",
+    "status": "ok",
+    "spans_complete": true,
+    "production": {
+      "latency_ms": { "value": 1200, "source": "synthetic production ledger", "coverage": "complete" },
+      "input_tokens": { "value": 750, "source": "synthetic production ledger", "coverage": "complete" },
+      "output_tokens": { "value": 120, "source": "synthetic production ledger", "coverage": "complete" },
+      "cost_usd": { "value": null, "source": "synthetic ledger does not record cost", "coverage": "unknown" }
+    },
+    "evaluation": {}
+  }]
+}

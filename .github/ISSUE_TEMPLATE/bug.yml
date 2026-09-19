@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a reproducible problem
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Include a synthetic fixture and the command or report interaction that fails. Remove private data.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Package version, Node.js version, operating system and browser
