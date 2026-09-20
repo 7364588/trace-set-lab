@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Include Node types explicitly so the build works with compilers that no longer
+  load ambient type packages by default.
+- Keep automated Node type upgrades on the oldest supported runtime's major.
+
 ## 0.1.0
 
 - Compare recorded JSONL cohorts using explicit case and repeat identifiers.
