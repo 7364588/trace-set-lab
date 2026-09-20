@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Update the build compiler to TypeScript 7.0.2 while keeping Node 22 type definitions.
 - Include Node types explicitly so the build works with compilers that no longer
   load ambient type packages by default.
 - Keep automated Node type upgrades on the oldest supported runtime's major.
