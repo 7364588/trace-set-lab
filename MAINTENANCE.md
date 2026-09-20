@@ -14,3 +14,13 @@ Before shipping a change:
 Scheduled CI tests compatibility; it does not edit files, make commits or publish packages.
 Dependency update proposals require review and tests. Releases depend on useful changes.
 No response-time guarantee is made.
+
+## Dependency compatibility
+
+The CI baseline is Node 22, with additional Node 24 checks. Keep `@types/node`
+on major 22 so type checking does not silently accept APIs unavailable on the
+oldest supported runtime. Update that major only when the runtime baseline changes.
+
+The compiler configuration explicitly includes Node types. Check build, tests,
+demo output and the installed package when updating TypeScript; it is a build-time
+dependency and is not required by the published CLI at runtime.
