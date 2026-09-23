@@ -14,5 +14,5 @@
     "demo": "npm run build && node scripts/demo.mjs",
     "prepack": "npm run build"
   },
-  "devDependencies": { "@types/node": "22.15.30", "typescript": "7.0.2" }
+  "devDependencies": { "@types/node": "22.20.3", "typescript": "7.0.2" }
 }
